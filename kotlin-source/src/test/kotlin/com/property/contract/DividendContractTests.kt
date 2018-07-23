@@ -84,7 +84,7 @@ class FundContractTests {
 //            transaction {
 //                output(FUND_CONTRACT_ID, FundState(fundValue, megaCorp.party, megaCorp.party))
 //                command(listOf(megaCorp.publicKey, miniCorp.publicKey), FundContract.Commands.Create())
-//                `fails with`("The fundManager and the investor cannot be the same entity.")
+//                `fails with`("The fundManager and the shareholders cannot be the same entity.")
 //            }
 //        }
 //    }
